@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: gray;
+    padding: 10px;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    justify-content: space-between;
+    border:soild 10px;
+}
+
+.logo img {
+    height: 80px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align:center;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
